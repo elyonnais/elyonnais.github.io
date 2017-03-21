@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
     
-
+/* Google Font */
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -11,4 +11,208 @@ h1 {
 
 
 
+
+/******************************
+  Color Palette  
+  * Primary : #6d6e71 
+  * Secondary : #000 or #fff 
+  * Highlight: #a10022
+******************************/
+
+/******************************
+  Global
+******************************/
+/* Border Box Sizing */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/******************************
+  Headers
+******************************/
+/* Headers */
+h1 {
+	font-size: 4em; /* 64px / 16px = 4em */
+	text-align: center;
+	
+
+}
+
+h2 {
+	color: #a10022;
+	font-size: 1.85em; /* 30px / 16px = 1.85em */
+	text-align: center;
+}
+
+h3 {
+   font-size: 1.5em; /* 24px / 16px = 1.5em */
+}
+
+
+/******************************
+  Lists
+******************************/
+li {
+	line-height: 1.5em;
+}
+
+/******************************
+  Links
+******************************/
+/* Links */
+a:link, 
+a:visited {
+	color: #a10022;
+	border-bottom: 2px solid #a10022;
+	text-decoration: none;
+}
+
+a:focus {
+  background: #a10022;  
+  color: #000;
+}
+
+a:hover, 
+a:active {
+	color: #6d6e71;
+	border-bottom: 4px double #6d6e71;
+}
+
+/******************************
+  Images
+******************************/
+img {
+  
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/******************************
+   Main Navigation
+******************************/
+nav ul {
+  display: flex;
+  /* Experiment with `justify-content` */
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a:link, 
+nav a:visited {
+  color: #000;
+  display: block;
+  padding: .5em;
+  margin: .5em;
+  text-decoration: none;
+  
+  /* Override Text Links */
+  border-bottom: none;
+}
+
+nav a:hover,
+nav a:active {
+  color: #fff;
+  background: #a10022;
+  border-radius: 5px;
+  transition: 
+    background .5s,
+    border-radius 1s;
+}
+
+/******************************
+   Form
+******************************/
+label, 
+input,
+textarea {
+  display: block;
+  margin: .25em;
+  padding: .25em;
+  width: 100%;
+}
+
+textarea {
+  height: 5em;
+}
+
+input[type="submit"] {
+  background: #6d6e71;
+  border-radius: 5px;
+  width: 100;
+  padding: 1em;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background: #a10022;
+  color: #fff;
+}
+
+:focus {
+  background: #ccc;
+}
+
+/******************************
+  Social Media
+******************************/
+.social ul {
+  display: flex;
+  list-style: none;
+}
+
+.social a {
+  background: yellow;
+  display: block;
+  height: 72px;
+  margin: 1em;
+  width: 72px;
+  
+  /* Hide Text    */
+  text-indent: -999em;
+}
+
+
+
+/******************************
+   Rows & Columns
+******************************/
+/* Layout */
+main {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/* Rows */
+.row {
+ margin: 10px 0;
+}
+
+/* Columns */
+.col {
+  background: rgba(255,255,255,.65);
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Flexbox Styling */
+.row {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+}
+
+.col {
+  /*  `flex-basis` value is arbitrary  */
+  flex: 1 12em;
+}
 
