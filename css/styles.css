@@ -262,7 +262,7 @@ body {
 /*Portfolio */
 
 
-main {
+.portfolio {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
