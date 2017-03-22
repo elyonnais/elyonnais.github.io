@@ -20,13 +20,6 @@ Color Palette
 */
 
 /******************************
-  Color Palette  
-  * Primary : #6d6e71 
-  * Secondary : #000 or #fff 
-  * Highlight: #a10022
-******************************/
-
-/******************************
   Global
 ******************************/
 /* Border Box Sizing */
@@ -52,6 +45,8 @@ h2 {
 	color: #c9596b;
 	font-size: 1.85em; /* 30px / 16px = 1.85em */
 	text-align: center;
+    margin-bottom: 100px;
+    
 }
 
 h3 {
@@ -73,19 +68,18 @@ li {
 /* Links */
 a:link, 
 a:visited {
-	color: #2db5a0;
-	border-bottom: 2px solid #a10022;
+	color: #c9596b;
 	text-decoration: none;
 }
 
 a:focus {
-  background: #a10022;  
-  color: #000;
+  background: #eab721;  
+  color: #c9596b;
 }
 
 a:hover, 
 a:active {
-	color: #2db5a0;
+	color: #eab721;
 	border-bottom: 4px double #6d6e71;
 }
 
@@ -159,52 +153,24 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #b0b1b2;
+  background: #c9596b;
   border-radius: 5px;
   width: 100;
   padding: 1em;
   border: none;
+  color: #fff;
 }
 
 input[type="submit"]:hover {
-  background: #65a69e;
+  background: #eab721;
   color: #fff;
 }
 
 :focus {
-  background: #f4f4f4;
-}
-
-/******************************
-  Social Media
-******************************/
-/*
-/.social ul {
-  display: flex;
-  list-style: none;
-}
-
-.social a {
-  background: yellow;
-  display: block;
-  height: 72px;
-  margin: 1em;
-  width: 72px;
   
-*/
-  /* Hide Text    */
-/*
-  text-indent: -999em;
 }
 
-.social li:nth-child(1) a {
-  background: url("img/1487637844_facebook.png") no-repeat;
-}
-
-.social li:nth-child(2) a {
-  background: url("https://ac1f21d35b6f4eda97798830389c2932.production.codepen.plumbing/img/icons/facebook.jpg") no-repeat;
-}
-*/
+/* Contact */
 
 .social ul {
   display: flex;
@@ -275,16 +241,27 @@ body {
     
 }
 #cover {
-    position: absolute;
+    position: relative;
     width: 100%;
     object-fit: cover;
     max-width: none;
     box-shadow: none;
+
 }
 
 
+/* Arrows */
+    
 
 
+
+
+/* Footer */
+
+.main-footer {
+    text-align: center;
+    font-size: 75%;
+}
 
 /* Media Queries */
 /* Mobile */
