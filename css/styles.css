@@ -66,7 +66,7 @@ li {
 /* Links */
 a:link, 
 a:visited {
-	color: #a10022;
+	color: #2db5a0;
 	border-bottom: 2px solid #a10022;
 	text-decoration: none;
 }
@@ -78,7 +78,7 @@ a:focus {
 
 a:hover, 
 a:active {
-	color: #6d6e71;
+	color: #2db5a0;
 	border-bottom: 4px double #6d6e71;
 }
 
@@ -96,6 +96,7 @@ img {
 ******************************/
 nav ul {
   display: flex;
+    justify-content: 
   /* Experiment with `justify-content` */
 }
 
@@ -123,8 +124,8 @@ nav a:visited {
 nav a:hover,
 nav a:active {
   color: #fff;
-  background: #a10022;
-  border-radius: 5px;
+  background: #2db5a0;
+  border-radius: 2.5px;
   transition: 
     background .5s,
     border-radius 1s;
@@ -147,7 +148,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #6d6e71;
+  background: #b0b1b2;
   border-radius: 5px;
   width: 100;
   padding: 1em;
@@ -155,18 +156,19 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: #a10022;
+  background: #2db5a0;
   color: #fff;
 }
 
 :focus {
-  background: #ccc;
+  background: rgba(45, 181, 160, 0.04);
 }
 
 /******************************
   Social Media
 ******************************/
-.social ul {
+/*
+/.social ul {
   display: flex;
   list-style: none;
 }
@@ -178,8 +180,32 @@ input[type="submit"]:hover {
   margin: 1em;
   width: 72px;
   
+*/
   /* Hide Text    */
+/*
   text-indent: -999em;
+}
+
+.social li:nth-child(1) a {
+  background: url("img/1487637844_facebook.png") no-repeat;
+}
+
+.social li:nth-child(2) a {
+  background: url("https://ac1f21d35b6f4eda97798830389c2932.production.codepen.plumbing/img/icons/facebook.jpg") no-repeat;
+}
+*/
+
+.social ul {
+  display: flex;
+  list-style: none;
+}
+
+.social img {
+    box-shadow: none;
+    height: 72px;
+    display: block;
+    margin: 1em;
+    width: 72px;
 }
 
 
