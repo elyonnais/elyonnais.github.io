@@ -356,10 +356,10 @@ figure {
 
 /* Media Queries */
 /* Mobile */
+@media only screen 
+  and (min-width: 20em) 
+  and (max-width: 47.9375em)  { 
 
-@media (min-width: 20em) {
-    
-    
     .bio {
         display: block;
         margin: 50px;
@@ -373,7 +373,8 @@ figure {
 }
 
 /* Tablet */
-@media (min-width: 48em) {
+@media only screen and (min-width: 48em)
+and (max-width: 63.9375em){
     
     .bio {
         margin: 25px;
@@ -392,7 +393,7 @@ figure {
 }
 
 /* Desktop */
-@media (min-width: 80em) {
+@media (min-width: 64em) {
     
     .bio {
         margin: 50px;
