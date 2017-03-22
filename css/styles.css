@@ -256,6 +256,30 @@ body {
 
 
 
+
+
+
+/*Portfolio */
+
+
+main img {
+    display: flex;
+    width: 50%;
+    height: 50%; 
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figure {
+  /*  `flex-basis` value is arbitrary  */
+  flex: 1 200px;
+}
+
+
+
+
+
 /* Footer */
 
 
