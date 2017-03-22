@@ -211,3 +211,8 @@ main {
  flex-flow: row wrap;
 }
 
+.col {
+  /*  `flex-basis` value is arbitrary  */
+  flex: 1 12em;
+}
+
