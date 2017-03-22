@@ -45,7 +45,7 @@ h2 {
 	color: #c9596b;
 	font-size: 1.85em; /* 30px / 16px = 1.85em */
 	text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     
 }
 
@@ -258,10 +258,28 @@ body {
 
 /* Footer */
 
+
+.main-footer img, 
+.main-footer a:active, 
+.main-footer a:hover {
+    box-shadow: none;
+    height: 45px;
+    margin: 0 5px 0 5px;
+    width: 45px;
+    border-bottom: none;
+
+    
+}
+
 .main-footer {
     text-align: center;
     font-size: 75%;
+    margin-top: 100px;
 }
+
+
+
+
 
 /* Media Queries */
 /* Mobile */
