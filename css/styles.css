@@ -10,7 +10,14 @@ h1 {
 }
 
 
-
+/*
+Color Palette
+    1 - #c9596b
+    2 - #243745
+    3 - #6b8048
+    4 - #65a69e
+    5 - #eab721
+*/
 
 /******************************
   Color Palette  
@@ -42,7 +49,7 @@ h1 {
 }
 
 h2 {
-	color: #a10022;
+	color: #c9596b;
 	font-size: 1.85em; /* 30px / 16px = 1.85em */
 	text-align: center;
 }
@@ -93,6 +100,7 @@ img {
 }
 
 
+
 /******************************
    Main Navigation
 ******************************/
@@ -126,12 +134,13 @@ nav a:visited {
 nav a:hover,
 nav a:active {
   color: #fff;
-  background: #2db5a0;
+  background: #65a69e;
   border-radius: 2.5px;
   transition: 
     background .5s,
     border-radius 1s;
 }
+
 
 /******************************
    Form
@@ -158,12 +167,12 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: #2db5a0;
+  background: #65a69e;
   color: #fff;
 }
 
 :focus {
-  background: rgba(45, 181, 160, 0.04);
+  background: #f4f4f4;
 }
 
 /******************************
@@ -258,6 +267,24 @@ main {
 
 }
 
+/* Home */
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+#cover {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    max-width: none;
+    box-shadow: none;
+}
+
+
+
+
 
 /* Media Queries */
 /* Mobile */
@@ -286,7 +313,7 @@ main {
     .bio, 
     .bio img {
         display: flex; 
-        margin-right: 20px;
+        margin-right: 25px;
         min-width: auto;
     }
     
@@ -313,3 +340,4 @@ main {
     }
 
 }
+
