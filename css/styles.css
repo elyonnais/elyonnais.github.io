@@ -57,6 +57,7 @@ h3 {
 ******************************/
 li {
 	line-height: 1.5em;
+    list-style: none;
 }
 
 /******************************
@@ -208,11 +209,5 @@ main {
 .row {
  display: flex;
  flex-flow: row wrap;
- justify-content: space-around;
-}
-
-.col {
-  /*  `flex-basis` value is arbitrary  */
-  flex: 1 12em;
 }
 
