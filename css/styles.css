@@ -356,7 +356,7 @@ figure {
 /* Sticky Footer */
 
    .wrap {
-    min-height: calc(100vh - 79px);
+    min-height: calc(100vh - 111.16px);
     margin-bottom: 50px;
 }
 
