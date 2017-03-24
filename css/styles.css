@@ -55,6 +55,11 @@ h3 {
     
 }
 
+h4 {
+   font-size: .8em;
+    
+}
+
 
 /******************************
   Lists
@@ -272,15 +277,11 @@ body {
 main img {
     display: flex;
     box-shadow: none; 
-    max-width: 400px;
-
+    max-width: 250px;
+   
     
 }
 
-figure {
-  /*  `flex-basis` value is arbitrary  */
-  flex: 1 200px;
-}
 
 
 /* Lightbox Overlay */
@@ -313,8 +314,9 @@ figure {
 }
 
 .overlay img {
-    min-width: 50vh;
-    min-height: 5vh;
+    min-width: 55vh;
+    max-width: 55vh;
+
 }
 
 /* Close Button  */
