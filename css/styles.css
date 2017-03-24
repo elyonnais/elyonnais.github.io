@@ -3,6 +3,7 @@
 /* Google Font */
 body {
     font-family: 'Poppins', sans-serif;
+     
 }
 
 h1 {
@@ -347,14 +348,16 @@ figure {
 .main-footer {
     text-align: center;
     font-size: 75%;
-    margin-top: 100px;
+   
+   
 }
 
 
 /* Sticky Footer */
 
    .wrap {
-    min-height: calc(100vh - 119px);
+    min-height: calc(100vh - 19px);
+    margin-bottom: 50px;
 }
 
 
