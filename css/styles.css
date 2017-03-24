@@ -167,9 +167,6 @@ input[type="submit"]:hover {
   color: #fff;
 }
 
-:focus {
-  
-}
 
 /* Contact */
 
@@ -200,7 +197,7 @@ main {
 
 /* Rows */
 .row {
- margin: 10px 0;
+ margin: 10px auto;
 }
 
 /* Columns */
@@ -211,10 +208,7 @@ main {
 }
 
 /* Flexbox Styling */
-.row {
- display: flex;
- flex-flow: row wrap;
-}
+
 
 .col {
   /*  `flex-basis` value is arbitrary  */
@@ -363,8 +357,8 @@ figure {
 
 /* Media Queries */
 /* Mobile */
-@media only screen 
-  and (min-width: 20em) 
+@media  only screen and
+  (min-width: 20em) 
   and (max-width: 47.9375em)  { 
 
     .bio {
@@ -376,6 +370,16 @@ figure {
         margin: 0 auto 50px auto; 
         min-width: 250px;
     }
+      
+      article.row {
+          display: block;
+          margin: 0 50px; 
+      }
+      
+      .col {
+          display: block;
+          margin: 100px;
+      }
     
     
  
@@ -384,8 +388,8 @@ figure {
 }
 
 /* Tablet */
-@media only screen and (min-width: 48em)
-and (max-width: 63.9375em){
+@media  only screen and (min-width: 48em)
+ and (max-width: 63.9375em){
     
     .bio {
         margin: 25px;
@@ -397,14 +401,22 @@ and (max-width: 63.9375em){
         min-width: auto;
     }
     
-    .col {
-        margin: 25px;
+    article.row {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 10px;
     }
+     
+     .col {
+         display: flex; 
+         flex-flow: column wrap;
+     }
+   
     
 }
 
 /* Desktop */
-@media (min-width: 64em) {
+@media only screen and (min-width: 64em) {
     
     .bio {
         margin: 50px;
@@ -417,6 +429,12 @@ and (max-width: 63.9375em){
     
     .col {
         margin: 50px;
+    }
+    
+     .row {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 25px;
     }
 
 }
