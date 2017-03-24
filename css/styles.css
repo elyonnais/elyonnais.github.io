@@ -52,6 +52,7 @@ h2 {
 
 h3 {
    font-size: 1.5em; /* 24px / 16px = 1.5em */
+    
 }
 
 
@@ -184,6 +185,22 @@ input[type="submit"]:hover {
     width: 72px;
 }
 
+.container {
+  display: block;
+  vertical-align: top;
+  
+}
+
+.container .row {
+    float: right;
+}
+
+.container .picture {
+    float: left;
+}
+
+
+
 
 
 /******************************
@@ -205,6 +222,8 @@ main {
   background: rgba(255,255,255,.65);
   margin: 50px;
   padding: 10px;
+
+
 }
 
 /* Flexbox Styling */
@@ -423,7 +442,7 @@ figure {
     }
     
     .col {
-        margin: 50px;
+        margin: 50px 10px;
     }
     
      .row {
@@ -432,5 +451,8 @@ figure {
         margin: 25px;
     }
 
+    .picture {
+        height: 814.5px;
+    }
 }
 
