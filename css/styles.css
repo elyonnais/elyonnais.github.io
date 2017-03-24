@@ -197,7 +197,7 @@ main {
 
 /* Rows */
 .row {
- margin: 10px auto;
+ margin: 10px 50px;
 }
 
 /* Columns */
@@ -357,7 +357,7 @@ figure {
 
 /* Media Queries */
 /* Mobile */
-@media  only screen and
+@media only screen
   (min-width: 20em) 
   and (max-width: 47.9375em)  { 
 
@@ -371,7 +371,7 @@ figure {
         min-width: 250px;
     }
       
-      article.row {
+     .row {
           display: block;
           margin: 0 50px; 
       }
@@ -388,7 +388,7 @@ figure {
 }
 
 /* Tablet */
-@media  only screen and (min-width: 48em)
+@media only screen and (min-width: 48em)
  and (max-width: 63.9375em){
     
     .bio {
@@ -401,11 +401,6 @@ figure {
         min-width: auto;
     }
     
-    article.row {
-        display: flex;
-        flex-flow: row wrap;
-        margin: 10px;
-    }
      
      .col {
          display: flex; 
