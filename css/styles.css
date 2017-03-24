@@ -185,22 +185,6 @@ input[type="submit"]:hover {
     width: 72px;
 }
 
-.container {
-  display: block;
-  vertical-align: top;
-  
-}
-
-.container .row {
-    float: right;
-}
-
-.container .picture {
-    float: left;
-}
-
-
-
 
 
 /******************************
@@ -451,8 +435,5 @@ figure {
         margin: 25px;
     }
 
-    .picture {
-        height: 814.5px;
-    }
 }
 
