@@ -224,13 +224,12 @@ input[type="submit"]:hover {
 .col {
   /*  `flex-basis` value is arbitrary  */
   flex: 1 12em;
-  margin: 10px;
+  margin: 20px;
 }
 
 /* About Me */
 
 .bio img {
-    margin-right: 20px;
     max-width: 400px;
     
 }
@@ -450,11 +449,12 @@ main img {
     .bio img {
         display: flex; 
         text-align: left;
+        margin-right: 25px;
 
     }
     
     .col {
-        margin: 50px 10px;
+        margin: 50px 50px;
     }
     
      .row {
