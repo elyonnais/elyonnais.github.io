@@ -394,13 +394,18 @@ main img {
  and (max-width: 63.9375em){
     
      
+     .bio,
+     .col {
+         margin: 50px;
+     }
+     
     .bio, 
     .bio img {
         display: flex; 
         margin-right: 25px;
         min-width: auto;
         text-align: left;
-        
+
     }
     
      
@@ -435,7 +440,10 @@ main img {
 /* Desktop */
 @media only screen and (min-width: 64em) {
     
-
+    .bio,
+    .col {
+         margin: 50px;
+     }
     
     
     .bio, 
