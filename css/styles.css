@@ -99,12 +99,14 @@ a:active {
 /******************************
   Images
 ******************************/
+/*
 img {
   
    
   
   box-shadow: 0 10px 20px rgba(0,0,0,0.17), 0 6px 6px rgba(0,0,0,0.22);
 }
+*/
 
 
 
@@ -224,22 +226,21 @@ input[type="submit"]:hover {
 .col {
   /*  `flex-basis` value is arbitrary  */
   flex: 1 12em;
-  margin: 20px;
+  margin: 0px 25px;
 }
 
 /* About Me */
 
 .bio img {
-    max-width: 400px;
+    max-width: 250px;
     
 }
 .bio {
     display: block; 
     margin: 1em;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    margin: 25px 25px 50px 25px;
     text-align: center;
-
+    font-size: 14px;
 }
 
 
@@ -381,7 +382,7 @@ main img {
           display: block;
           margin: 100px;
       }
-      
+     
     
  
 
@@ -393,10 +394,6 @@ main img {
  and (max-width: 63.9375em){
     
      
-     .bio,
-     .col {
-         margin: 50px;
-     }
      
     .bio, 
     .bio img {
@@ -407,6 +404,11 @@ main img {
 
     }
     
+     .bio,
+     .col {
+         margin: 50px 100px;
+     }
+     
      
      .col {
          display: flex; 
@@ -439,23 +441,22 @@ main img {
 /* Desktop */
 @media only screen and (min-width: 64em) {
     
-    .bio,
-    .col {
-         margin: 50px;
-     }
-    
     
     .bio, 
     .bio img {
         display: flex; 
         text-align: left;
-        margin-right: 25px;
+        margin-right: 50px;
+        font-size: 1em;
 
     }
     
+    
+    .bio,
     .col {
-        margin: 50px 50px;
-    }
+         margin: 50px 150px;
+     }
+
     
      .row {
         display: flex;
